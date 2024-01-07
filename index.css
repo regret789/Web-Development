@@ -1,0 +1,42 @@
+div{
+    width:100px;
+    height:100px;
+    background-color:red;
+    margin: 25px;
+    display:inline-block;
+    text-align: center;
+    border:2px solid green;
+}
+.div:hover{
+    transition:3s;
+    box-shadow: 4px;
+}
+#static{
+    background-color:yellow;
+    position:static;
+    top:100px;
+    left:100px;
+    
+}
+
+#relative{
+    background-color:yellow;
+    position:relative;
+    top:100px;
+    left:100px;
+    
+}
+#absolute{
+    background-color:yellow;
+    position:absolute;
+    top:100px;
+    left:100px;
+    
+}
+#fixed{
+    background-color:pink;
+    position:fixed;
+    top:100px;
+    left:100px;
+    
+}

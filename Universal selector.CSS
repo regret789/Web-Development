@@ -1,0 +1,6 @@
+*{
+    font-weight: bolder;
+}
+input[type="Biratnagar"]:checked{
+    color:blue;
+}

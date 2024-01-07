@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.main_box{
+  background:url("camera.jpg.jpg");
+  height:100vh;  
+  background-size:cover;
+ 
+}
+.btn_one{
+    color:white;
+    font-size: 30px;
+    border:none;
+    font-weight:700;
+    position:absolute;
+    line-height: 60px;
+ }
+ .sidbar_menu{
+     position:absolute;
+     left:100px;
+     height:100vh;
+     width:100px;
+     background-color: white;
+     box-shadow:0 0 2px rgb(255, 255, 255,0.5);
+ 
+ }
+ 
+ .sidebar_menu .logo{
+    left:20px;
+    position: relative;
+    top: 20px;
+    
+    
+ }
+ .sidebar_menu .logo a{
+     position:relative;
+     left:70px;
+     top:15px;
+     color:white;
+     text-decoration: none;
+     font-size:20px;
+     font-weight:500;
+     cursor:pointer;
+ }
+ .sidebar_menu .btn_two i{
+     color:grey;
+     font-size:25px;
+     line-height:60px;
+     position:absolute;
+     left:275px;
+    /* opacity:0;*/
+     cursor: pointer;
+ }
+ .sidebar_menu .menu{
+     position:relative;
+     top:80px;
+     right: 200px;
+     transition: 0.5s;
+     border-left: 20px;
+ }
+ .sidebar_menu .menu li{
+     margin-top:6px;
+     padding:14px 20px;
+ 
+ }
+ .sidebar_menu .menu i,a{
+     color:white;
+     text-decoration:none;
+     font-size:20px;
+
+ }
+ .sidebar_menu .menu{
+     padding-right:8px;
+     
+ }
+ .sidebar_menu .social_media{
+    position: absolute;
+    left: 6%;
+    bottom: 100px;
+ }
+ .sidebar_menu .social_media i{
+ color:white;
+ opacity:0.5;
+ padding:0 5px;
+ }
+ #check{
+     display:none;
+ }
+ .sidebar_menu .menu li:hover{
+ box-shadow:0 0 4px rgba(255,255,255,0.5);
+ border-style: solid;
+ 
+ }
+ .btn_one i:hover{
+   font-size:40px;  
+ }
+ .btn_two i:hover{
+     font-size:30px;
+ }
+ .sidebar_menu .social_media i.hover{
+     opacity:1;
+     transform:scale(1,1);
+ }
+ #check:checked~.sidebar_menu .menu{
+     
+     transition: 0.5s;
+     right: 0px;
+ }
+ #check:checked~ .btn_one i{
+    transition: 0.5s;
+    right: 0px;
+     
+ }
+ #check:checked~ .btn_two i{
+    transition: 0.5s;
+    right: 0px;
+ }
+   

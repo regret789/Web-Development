@@ -1,0 +1,22 @@
+h1{
+    background-color: yellow;
+    color:red;
+    border:2px solid black;
+}
+@media(WIDTH:400px){
+    h1{
+        background-color: blue;
+        color:black;
+    }
+}
+@media(max-width:500px){
+    h1{
+        background-color: aquamarine;
+    }
+
+}
+@media(orientation:landscape){
+    div{
+        background-color:purple;
+    }
+}
